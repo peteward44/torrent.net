@@ -1,0 +1,24 @@
+
+
+- support writing bencoded stuff too
+- type-safe string, list & dictionary enumerators
+- possible rewrite for .net serialization?
+
+- type safe read-only lists for filelist, shadigest and filelength in metainfo.cs
+
+- write proper serialization routines for config.cs
+
+- multi-tracker support in metainfo.cs
+
+- timeout requests if the peer takes too long to respond
+- refresh peers list according to tracker refresh
+- check other peers if the download slots aren't empty on peer disconnection
+
+- turn off "i am interested" flag if we are no longer interested in any of their pieces
+
+- dont connect to seeds if already seeding
+DONE - disconnect seeds on complete
+- bandwidth choke
+- upload manager fix
+- end game implementation
+- super seed option

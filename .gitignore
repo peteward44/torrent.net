@@ -1,0 +1,7 @@
+/*.suo
+/btdotnet/obj
+/btdotnet/*.user
+/test/bin
+/test/obj
+/testgui/bin
+/testgui/obj
